@@ -1,16 +1,58 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Image Gallery</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        .movie-image {
+            width: 100px;
+            height: 100px;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <div class="container-fluid">
+        <!-- First row with 12 images -->
+        <div class="row">
+            <div class="col-sm-1"><img src="https://plus.unsplash.com/premium_photo-1691414448564-813a32a67d9f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bW91bmF0aW5zfGVufDB8fDB8fHww" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1629357503818-01cea6c2f598?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bW91bmF0aW5zfGVufDB8fDB8fHww" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://images.unsplash.com/photo-1615630852228-9ac7e20f99b3?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1vdW5hdGluc3xlbnwwfHwwfHx8MA%3D%3D" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1472804537/photo/young-man-looks-at-the-sunset-view-standing-on-a-rock-in-the-mountain.webp?b=1&s=170667a&w=0&k=20&c=HMbN5vIWc2r8fBzpGXu0mboWb4nB8W3Hixc1zQjHT3I=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1135654650/photo/toad-rock-mount-abu-02.webp?b=1&s=170667a&w=0&k=20&c=W_qg4Nom2XOsUm4zI7HRaW_hIu6Y432AB7hwOGcwOOA=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1206472415/photo/toad-rock-in-mount-abu-india.webp?b=1&s=170667a&w=0&k=20&c=SEy8_BddGqbLZb6JO0NpZAYRMr04xoWNOfOqTkAlZ0A=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/2156219555/photo/himalayan-mountains-and-lush-green-forest-scenic-natural-beauty-of-monsoon-in-darjeeling-west.webp?b=1&s=170667a&w=0&k=20&c=Xvdt1Rq66KXSWE5SZDsbN87F4mNu0gv5i9FQMd32QAY=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.webp?b=1&s=170667a&w=0&k=20&c=0FSPkjeK1u_EksXE1VrATh7MD74dnFiVmMmaMhtSYwI=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1067678216/photo/snow-mountain-view-of-leh-ladakh-district-norther-part-of-india.jpg?s=612x612&w=0&k=20&c=Po5iOrWvC4rjxBVc_my1F4w-AOt4bC5AvkbPk9rOs5o=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1265174965/photo/mud-volcanoes-of-gobustan.webp?b=1&s=170667a&w=0&k=20&c=Ut6IDH-jTzPTLVf7sAsJqM_UZqfUHG5uwq0Jlux1ICI=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/936492614/photo/woman-looking-at-view-on-himalayas.jpg?s=612x612&w=0&k=20&c=Ilp1sPvWuUB7sX6k23m9bwJGt_Wn16M90oo9Rvh6lR8=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-1"><img src="https://media.istockphoto.com/id/1322194555/photo/mount-abu-hill-station-india.jpg?s=612x612&w=0&k=20&c=S4YYj7htf-m850N6WhF3xaaAPBMhcApEQUajAGbOYnQ=" class="movie-image" alt="Movie"></div>
+        </div>
+        <!-- Second row with 6 images -->
+        <div class="row">
+            <div class="col-sm-2"><img src="https://media.istockphoto.com/id/1193812542/photo/winter-wonderland-scenery-with-cross-country-skiing-track-in-the-alps.jpg?s=612x612&w=0&k=20&c=8XkRC71BZODO2FBkBJavAoUmKymcx7b31HuQgs0i9Sg=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://media.istockphoto.com/id/839175064/photo/young-couple-sitting-on-rock-in-river-and-playing-guitar.jpg?s=612x612&w=0&k=20&c=893Holmu_tuew7Y1ZyhCZCNWh1rnk_vciUrLyRsRY2I=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://media.istockphoto.com/id/589554884/photo/woman-in-yoga-asana-vrikshasana-tree-pose-in-mountains-outdoors.jpg?s=612x612&w=0&k=20&c=ohUiTrrVA6A1G2WvxThRoahAO2EfcIGWTlr1F9FGYBE=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://media.istockphoto.com/id/467621442/photo/storm-clouds-over-mountains-of-ladakh-jammu-and-kashmir-india.jpg?s=612x612&w=0&k=20&c=_xPHjA31itk6S8OVHzTljVEXM7zGdmpEq6cjI_0n7ME=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://media.istockphoto.com/id/498527747/photo/man-hiking-success-silhouette-in-mountains.jpg?s=612x612&w=0&k=20&c=SjrvEeJbXAtyVo7dEVISBlbqBGOmMb9UGjczjzQw23Y=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-2"><img src="https://media.istockphoto.com/id/1160316337/photo/tea-plantations.jpg?s=612x612&w=0&k=20&c=5gj1mezzy3cHlCQcqiOIM8pLBLeMyWoxW3e_R57eyv8=" class="movie-image" alt="Movie"></div>
+        </div>
+        <!-- Third row with 3 images -->
+        <div class="row">
+            <div class="col-sm-4"><img src="https://media.istockphoto.com/id/472108091/photo/camel-is-waiting-for-tourists-in-nubra-valley-leh.jpg?s=612x612&w=0&k=20&c=t7-IY1htpeu7o4jYr_tDb6ZFyZS9QruUsAPCv3S6A3c=" class="movie-image" alt="Movie"></div>
+            <div class="col-sm-4"><img src="https://media.istockphoto.com/id/517469968/photo/yak-on-the-trail-mount-ama-dablam-on-background-nepal.jpg?s=612x612&w=0&k=20&c=cmYPhyEqNCp9S8j87D_hNXqSA5qvyG-WEilLth_SS0s=" class
+			<div class="col-sm-4"><img src="https://media.istockphoto.com/id/1061972196/photo/camel-safari-ride-caravan-in-hunder-desert-nubra-valley-leh-ladakh-india.jpg?s=612x612&w=0&k=20&c=czU_-_ruVm2n917nAcClu9Cud6cRP3qmeUTM2njV_hU=" class="movie-image" alt="Movie"></div>
+        </div>
+        <!-- Fourth row with 1 image -->
+        <div class="row">
+            <div class="col-sm-12"><img src="https://media.istockphoto.com/id/1492525168/photo/seniors-running-in-the-mountains-and-enjoying-the-nature.jpg?s=612x612&w=0&k=20&c=Wa5UshNB_7jRfIK0pdqQTdxRJlmEmRqLipzYzpw8nOs=" class="movie-image" alt="Movie"></div>
+        </div>
+    </div>
 
+    <!-- Bootstrap 5 JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
 </body>
-
 </html>
